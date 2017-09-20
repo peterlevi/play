@@ -108,7 +108,7 @@ $(document).keydown(function(e) {
     if (player.keys[e.which]) {
       player.direction = player.keys[e.which];
     }
-  }w
+  }
 });
 
 function playerEats(player, apple) {
